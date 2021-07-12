@@ -62,6 +62,8 @@ namespace TestApp
 
                 maxCount = Math.Max(maxCount, count);
             }
+
+            yield return (currentDate, maxCount);
         }
 
         /// <summary>
